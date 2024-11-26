@@ -1,0 +1,16 @@
+INSERT INTO ahmad_alsadiq_product (name, description, price, tax_rate, quantity, type) VALUES
+                                                                                                        ('Red Dress', 'Elegant red dress', 79.99, 0.15, 10, 'Clothing'),
+                                                                                                        ('Blue Jeans', 'Comfortable blue jeans', 49.99, 0.15, 20, 'Clothing'),
+                                                                                                        ('Leather Jacket', 'Stylish leather jacket', 129.99, 0.15, 5, 'Clothing'),
+                                                                                                        ('Organic Apple', 'Fresh organic apple', 0.99, 0.07, 100, 'Food'),
+                                                                                                        ('Orange Juice', 'Freshly squeezed orange juice', 3.99, 0.07, 50, 'Beverage'),
+                                                                                                        ('Laptop', 'High-performance laptop', 999.99, 0.20, 8, 'Electronics'),
+                                                                                                        ('Headphones', 'Noise-cancelling headphones', 199.99, 0.20, 15, 'Electronics'),
+                                                                                                        ('Coffee Maker', 'Automatic coffee maker', 89.99, 0.15, 12, 'Home Appliances'),
+                                                                                                        ('Cookbook', 'Healthy recipes cookbook', 24.99, 0.10, 30, 'Books'),
+                                                                                                        ('Running Shoes', 'Lightweight running shoes', 69.99, 0.15, 25, 'Footwear'),
+                                                                                                        ('Yoga Mat', 'Non-slip yoga mat', 29.99, 0.15, 40, 'Fitness'),
+                                                                                                        ('Wrist Watch', 'Water-resistant wrist watch', 149.99, 0.15, 10, 'Accessories'),
+                                                                                                        ('Desk Lamp', 'LED desk lamp with adjustable brightness', 39.99, 0.15, 18, 'Home Decor'),
+                                                                                                        ('Bluetooth Speaker', 'Portable Bluetooth speaker', 59.99, 0.20, 22, 'Electronics'),
+                                                                                                       ('Perfume', 'Floral fragrance perfume', 49.99, 0.15, 16, 'Beauty');
