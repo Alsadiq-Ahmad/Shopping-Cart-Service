@@ -104,3 +104,26 @@ This project is a **Shopping Cart Service** developed as part of the Trendyol Ca
      ```bash
      curl -X POST http://localhost:8081/cart/1/pay
      ```
+
+---
+
+## Set Up PostgreSQL
+
+1. **Create a database**:
+   Create a PostgreSQL database named `ShoppingCart`.
+
+2. **Update the `application.properties` file** with your PostgreSQL credentials:
+   ```properties
+   spring.datasource.url=jdbc:postgresql://localhost:5432/ShoppingCart
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+
+
+## **Notes**
+
+### Port Configuration
+The application runs on port `8081`. To change this, update the `application.properties` file:
+
+```properties
+server.port=8081
+
